@@ -1,66 +1,66 @@
 
+<h1 align="center">🏠 EasyRental.io</h1>
+<p align="center">
+  Plataforma inteligente para la gestión de propiedades en renta.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20by-Jose%20Alejandro%20Trejo-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Deploy%20to%20Netlify-success?logo=netlify&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Framework-React-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite" />
+</p>
+
+---
+
+## 🚀 Despliegue Rápido
+
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
 
 ---
 
-# EasyRental.io
+## 🧠 ¿Qué es EasyRental.io?
 
-**Desarrollado por:** Jose Alejandro Trejo  
-**Aplicación:** Plataforma de gestión de propiedades y renta  
-**Framework:** React + TypeScript + Tailwind + Vite
+> EasyRental.io es una aplicación moderna para gestionar propiedades en renta, pensada para inmobiliarias, propietarios y arrendadores.  
+> Construida con React, TypeScript, TailwindCSS y Vite para máximo rendimiento y escalabilidad.
 
 ---
 
-## 🚀 Despliegue en Netlify
+## 📦 Tecnologías Utilizadas
 
-Sigue estos pasos para publicar EasyRental.io en [Netlify](https://www.netlify.com):
-
-### 1. Clona o sube el proyecto
-
-Puedes subir directamente el archivo `.zip` proporcionado o clonar el repositorio si lo tienes en GitHub.
-
-### 2. Configura el Proyecto
-
-Al crear un nuevo sitio en Netlify, asegúrate de lo siguiente:
-
-- **Build Command:** `npm run build`
-- **Publish directory:** `dist`
-- **Node Version:** Usa la versión recomendada por Netlify (ej. Node 18+)
-
-> Si subes el proyecto manualmente como carpeta, asegúrate que los archivos `netlify.toml` y `public/_redirects` estén presentes.
-
-### 3. Redirección para SPA
-
-La configuración ya incluye:
-
-```
-_redirects → public/_redirects
-netlify.toml → manejo automático de rutas dinámicas
-```
-
-Esto asegura que cualquier ruta como `/dashboard`, `/propiedades`, etc., no cause error 404.
+- ⚛️ React + TypeScript
+- ⚡ Vite
+- 🎨 TailwindCSS
+- 🔥 React Hook Form + Zod
+- 📡 React Router DOM
+- ☁️ Netlify (Deploy)
 
 ---
 
 ## 📁 Estructura del Proyecto
 
-- `src/` → Código fuente de la app
-- `public/` → Archivos públicos, favicon, `_redirects`
-- `netlify.toml` → Configuración para despliegue
-- `dist/` → Carpeta de salida generada con `npm run build` (Netlify la usa automáticamente)
+```bash
+├── public/              # Archivos públicos y _redirects para Netlify
+├── src/                 # Código fuente de la aplicación
+├── dist/                # Carpeta de build (se genera con npm run build)
+├── netlify.toml         # Configuración para Netlify
+├── .github/workflows/   # CI/CD opcional para GitHub Actions
+├── .gitignore
+└── README.md
+```
 
 ---
 
-## 🛠 Dependencias principales
+## ✍️ Autor
 
-- `React`
-- `Vite`
-- `TailwindCSS`
-- `React Router DOM`
-- `Zod`, `React Hook Form`
+Desarrollado con ❤️ por **Jose Alejandro Trejo**  
+[GitHub](https://github.com/) • [LinkedIn](https://linkedin.com/) • [EasyRental.io](https://easyrental.io)
 
 ---
 
-## 📌 Créditos
+## 📜 Licencia
 
-> Proyecto desarrollado por **Jose Alejandro Trejo** para EasyRental.io – 2025.
+Este proyecto está licenciado bajo MIT. Eres libre de usarlo, modificarlo y distribuirlo.
+
+---
+
