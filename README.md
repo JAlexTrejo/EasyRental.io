@@ -21,7 +21,7 @@
 
 ## 🧠 ¿Qué es EasyRental.io?
 
-> EasyRental.io es una aplicación moderna para gestionar propiedades en renta, pensada para inmobiliarias, propietarios y arrendadores.  
+> EasyRental.io es una aplicación para gestionar propiedades en renta, pensada para inmobiliarias, propietarios y arrendadores.  
 > Construida con React, TypeScript, TailwindCSS y Vite para máximo rendimiento y escalabilidad.
 
 ---
@@ -54,13 +54,16 @@
 ## ✍️ Autor
 
 Desarrollado con ❤️ por **Jose Alejandro Trejo**  
-[GitHub](https://github.com/) • [LinkedIn](https://linkedin.com/) • [EasyRental.io](https://easyrental.io)
+[GitHub](https://github.com/) • [LinkedIn](https://www.linkedin.com/in/joseatrejoc/) 
 
 ---
 
-## 📜 Licencia
+## ⚠️ Licencia
 
-Este proyecto está licenciado bajo MIT. Eres libre de usarlo, modificarlo y distribuirlo.
+Este proyecto está bajo una **Licencia Personalizada de Uso Restringido**:
 
----
+- ❌ No se permite el uso comercial sin autorización previa por escrito.
+- ❌ No se permite la redistribución ni modificación.
+- ✅ Solo para fines de demostración, revisión o inspiración.
 
+Si deseas colaborar, contribuir o licenciar este software, contacta a Jose Alejandro Trejo.
